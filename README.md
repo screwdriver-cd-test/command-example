@@ -21,3 +21,6 @@ This command uses yum to install the following packages.
 - awscli
 
 After installing the above, this command sets your AWS credentials so you can run `aws` commands directly.
+
+## Related links
+- AWSCLI env vars: https://docs.aws.amazon.com/cli/latest/userguide/cli-environment.html
