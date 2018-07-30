@@ -52,7 +52,7 @@ fi
 
 # Set the AWS default region if no argument provided
 if [ -z "$AWS_DEFAULT_REGION" ]; then
-  export AWS_DEFAULT_REGION="zts.athenz.ouroath.com"
+  export AWS_DEFAULT_REGION="us-west-2"
   echo "Using AWS default region "$AWS_DEFAULT_REGION"\n"
 fi
 
