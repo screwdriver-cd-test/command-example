@@ -1,0 +1,16 @@
+namespace: awscli
+name: install
+version: "1"
+description: |
+  Command for installing packages needed to perform AWS CLI commands.
+  Requires an image that contains yum
+usage: |
+  sd-cmd exec awscli/install@<VERSION> <OPTION>
+  Options:
+          -i|--id                 AWS access key ID (required)
+          -s|--secret             AWS secret access key (required)
+          -r|--region             AWS default region
+maintainer: bar@baz.com
+format: binary # Format the command is in (binary, habitat)
+binary:
+    file: ./install.sh # Path to script or binary file from repository root
